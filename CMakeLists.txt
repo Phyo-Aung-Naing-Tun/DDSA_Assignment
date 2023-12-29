@@ -5,4 +5,4 @@ set(CMAKE_C_STANDARD 11)
 
 add_executable(Assignments
 
-        testing.c)
+        3-Assignment.c)

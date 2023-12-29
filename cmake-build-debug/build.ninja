@@ -49,8 +49,8 @@ cmake_ninja_workdir = C$:/Users/Lenovo/OneDrive/Desktop/Assignments/cmake-build-
 
 build cmake_object_order_depends_target_Assignments: phony || CMakeFiles/Assignments.dir
 
-build CMakeFiles/Assignments.dir/testing.c.obj: C_COMPILER__Assignments_unscanned_Debug C$:/Users/Lenovo/OneDrive/Desktop/Assignments/testing.c || cmake_object_order_depends_target_Assignments
-  DEP_FILE = CMakeFiles\Assignments.dir\testing.c.obj.d
+build CMakeFiles/Assignments.dir/3-Assignment.c.obj: C_COMPILER__Assignments_unscanned_Debug C$:/Users/Lenovo/OneDrive/Desktop/Assignments/3-Assignment.c || cmake_object_order_depends_target_Assignments
+  DEP_FILE = CMakeFiles\Assignments.dir\3-Assignment.c.obj.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Assignments.dir
   OBJECT_FILE_DIR = CMakeFiles\Assignments.dir
@@ -63,7 +63,7 @@ build CMakeFiles/Assignments.dir/testing.c.obj: C_COMPILER__Assignments_unscanne
 #############################################
 # Link the executable Assignments.exe
 
-build Assignments.exe: C_EXECUTABLE_LINKER__Assignments_Debug CMakeFiles/Assignments.dir/testing.c.obj
+build Assignments.exe: C_EXECUTABLE_LINKER__Assignments_Debug CMakeFiles/Assignments.dir/3-Assignment.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Assignments.dir
